@@ -4,38 +4,11 @@
     display: flex;
     gap: 20px;
 }
-
 .section-card {
     text-align: center;
     padding: 40px 20px;
     border: 1px solid rgba(0, 0, 0, 0.128);
 }
-
-
-.parallelogram:hover {
-    background-color: #CCCCFF;
-}
-
-.rectangle:hover {
-    background-color: #B2F069;
-}
-
-.rhombus:hover {
-    background-color: #69C7F0;
-}
-
-.pentagon:hover {
-    background-color: #B5A908;
-}
-
-.ellipse:hover {
-    background-color: #FFC1AC;
-}
-
-
-
-
-
 .section-card-inputbox {
     margin-bottom: 4%;
 }
@@ -45,17 +18,11 @@
     border: hidden;
     border: 1px solid rgba(0, 0, 0, 0.11);
 }
-
-
-
 .section-left {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    /* gap: 10px; */
 }
-
-
-
 /* COMPLETED  */
 .list-items {
     margin: 10px;
