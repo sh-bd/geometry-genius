@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geometry Genius</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
     </header>
 
 
-    <main class="grid grid-cols-3 m-12">
+    <!-- <main class="grid grid-cols-3 m-12">
         <div class="border rounded-2xl p-8 gap-x-32">
             <img src="images/triangle.png" alt="">
             <h4>Triangle</h4>
@@ -34,58 +35,105 @@
             <input class="border" type="text"> cm <input class="border" type="text"> cm
     
             <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
+        </div> -->
+
+        <section class="container m-12 grid grid-3">
+
+            <div class="section-left col-span-3 gap-5">
+
+                <div class="section-card rounded-2xl hover:bg-pink-200">
+                    <div align="center"><img src="images/triangle.png" alt="triangle">
+                    </div>
+                    <div class="mt-5 font-bold text-2xl">Triangle</div>
+                    <div class="mt-3">
+                        Area (A) = 0.5 × <span id="tri-base">b</span> × <span id="tri-height">h</span>
+                    </div>
+                    <div class="section-card-inputbox mt-4">
+                        <input type="text" placeholder="b" class="bg-zinc-100 rounded m-2 w-1/5 p-3 "> cm <input type="text" placeholder="h" class="bg-zinc-100 rounded m-2 w-1/5 p-3"> cm
+                    </div>
+                    <div>
+                        <button class="mt-2 bg-sky-500 font-bold py-3 px-8 text-white rounded text-xl">Calculate</button>
+                    </div>
+                </div>
+                <div class="section-card triangle rounded-2xl hover:bg-pink-200">
+                    <div align="center"><img src="images/triangle.png" alt="triangle">
+                    </div>
+                    <div class="mt-5 font-bold text-2xl">Triangle</div>
+                    <div class="mt-3">
+                        Area (A) = 0.5 × <span id="tri-base">b</span> × <span id="tri-height">h</span>
+                    </div>
+                    <div class="section-card-inputbox mt-4">
+                        <input type="text" placeholder="b" class="bg-zinc-100 rounded m-2 w-1/5 p-3 "> cm <input type="text" placeholder="h" class="bg-zinc-100 rounded m-2 w-1/5 p-3"> cm
+                    </div>
+                    <div>
+                        <button class="mt-2 bg-sky-500 font-bold py-3 px-8 text-white rounded text-xl">Calculate</button>
+                    </div>
+                </div>
+                <div class="section-card triangle rounded-2xl hover:bg-pink-200">
+                    <div align="center"><img src="images/triangle.png" alt="triangle">
+                    </div>
+                    <div class="mt-5 font-bold text-2xl">Triangle</div>
+                    <div class="mt-3">
+                        Area (A) = 0.5 × <span id="tri-base">b</span> × <span id="tri-height">h</span>
+                    </div>
+                    <div class="section-card-inputbox mt-4">
+                        <input type="text" placeholder="b" class="bg-zinc-100 rounded m-2 w-1/5 p-3 "> cm <input type="text" placeholder="h" class="bg-zinc-100 rounded m-2 w-1/5 p-3"> cm
+                    </div>
+                    <div>
+                        <button class="mt-2 bg-sky-500 font-bold py-3 px-8 text-white rounded text-xl">Calculate</button>
+                    </div>
+                </div>
+                <div class="section-card triangle rounded-2xl hover:bg-pink-200">
+                    <div align="center"><img src="images/triangle.png" alt="triangle">
+                    </div>
+                    <div class="mt-5 font-bold text-2xl">Triangle</div>
+                    <div class="mt-3">
+                        Area (A) = 0.5 × <span id="tri-base">b</span> × <span id="tri-height">h</span>
+                    </div>
+                    <div class="section-card-inputbox mt-4">
+                        <input type="text" placeholder="b" class="bg-zinc-100 rounded m-2 w-1/5 p-3 "> cm <input type="text" placeholder="h" class="bg-zinc-100 rounded m-2 w-1/5 p-3"> cm
+                    </div>
+                    <div>
+                        <button class="mt-2 bg-sky-500 font-bold py-3 px-8 text-white rounded text-xl">Calculate</button>
+                    </div>
+                </div>
+                <div class="section-card triangle rounded-2xl hover:bg-pink-200">
+                    <div align="center"><img src="images/triangle.png" alt="triangle">
+                    </div>
+                    <div class="mt-5 font-bold text-2xl">Triangle</div>
+                    <div class="mt-3">
+                        Area (A) = 0.5 × <span id="tri-base">b</span> × <span id="tri-height">h</span>
+                    </div>
+                    <div class="section-card-inputbox mt-4">
+                        <input type="text" placeholder="b" class="bg-zinc-100 rounded m-2 w-1/5 p-3 "> cm <input type="text" placeholder="h" class="bg-zinc-100 rounded m-2 w-1/5 p-3"> cm
+                    </div>
+                    <div>
+                        <button class="mt-2 bg-sky-500 font-bold py-3 px-8 text-white rounded text-xl">Calculate</button>
+                    </div>
+                </div>
+                <div class="section-card triangle rounded-2xl hover:bg-pink-200">
+                    <div align="center"><img src="images/triangle.png" alt="triangle">
+                    </div>
+                    <div class="mt-5 font-bold text-2xl">Triangle</div>
+                    <div class="mt-3">
+                        Area (A) = 0.5 × <span id="tri-base">b</span> × <span id="tri-height">h</span>
+                    </div>
+                    <div class="section-card-inputbox mt-4">
+                        <input type="text" placeholder="b" class="bg-zinc-100 rounded m-2 w-1/5 p-3 "> cm <input type="text" placeholder="h" class="bg-zinc-100 rounded m-2 w-1/5 p-3"> cm
+                    </div>
+                    <div>
+                        <button class="mt-2 bg-sky-500 font-bold py-3 px-8 text-white rounded text-xl">Calculate</button>
+                    </div>
+                </div>
 
 
-        <div>
-            <img src="images/triangle.png" alt="">
-            <h4>Triangle</h4>
-            <p>Area (A) = 0.5 × b × h</p>
-            <input class="border" type="text"> cm <input class="border" type="text"> cm
-    
-            <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
-        <div>
-            <img src="images/triangle.png" alt="">
-            <h4>Triangle</h4>
-            <p>Area (A) = 0.5 × b × h</p>
-            <input class="border" type="text"> cm <input class="border" type="text"> cm
-    
-            <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
-        <div>
-            <img src="images/triangle.png" alt="">
-            <h4>Triangle</h4>
-            <p>Area (A) = 0.5 × b × h</p>
-            <input class="border" type="text"> cm <input class="border" type="text"> cm
-    
-            <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
-        <div>
-            <img src="images/triangle.png" alt="">
-            <h4>Triangle</h4>
-            <p>Area (A) = 0.5 × b × h</p>
-            <input class="border" type="text"> cm <input class="border" type="text"> cm
-    
-            <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
-        <div>
-            <img src="images/triangle.png" alt="">
-            <h4>Triangle</h4>
-            <p>Area (A) = 0.5 × b × h</p>
-            <input class="border" type="text"> cm <input class="border" type="text"> cm
-    
-            <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
-        <div>
-            <img src="images/triangle.png" alt="">
-            <h4>Triangle</h4>
-            <p>Area (A) = 0.5 × b × h</p>
-            <input class="border" type="text"> cm <input class="border" type="text"> cm
-    
-            <button class="py-2 px-8 mt-6 rounded-xl bg-sky-600">Calculate</button>
-        </div>
-        
+                
+            </div>
+
+            <div class="section-right">
+
+            </div>
+        </section>
     
     </main>
 
