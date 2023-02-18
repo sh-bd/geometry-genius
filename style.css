@@ -4,13 +4,18 @@
     display: flex;
     gap: 20px;
 }
+
 .section-card {
     text-align: center;
     padding: 40px 20px;
     border: 1px solid rgba(0, 0, 0, 0.128);
 }
+
 .section-card-inputbox {
     margin-bottom: 4%;
+}
+.random-bg-color{
+    transition: background 1s;
 }
 
 .section-card-inputbox input {
@@ -18,11 +23,13 @@
     border: hidden;
     border: 1px solid rgba(0, 0, 0, 0.11);
 }
+
 .section-left {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* gap: 10px; */
 }
+
 /* COMPLETED  */
 .list-items {
     margin: 10px;

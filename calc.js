@@ -1,13 +1,25 @@
+// random background color
+function randomColor() {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+      color.push(Math.floor(Math.random() * 256));
+    }
+    return 'rgb(' + color.join(', ') + ')';
+  } 
+  
+  document.getElementsByClassName('random-bg-color').addEventListener('mouseover', function(){
+    document.body.style.backgroundColor = randomColor();
+  });
+
+
 // RECTANGLE INPUT BOX WORKING PROCEDURE::
 document.getElementById('triangleCalculate').addEventListener('click', function () {
     const triangleInputField1 = document.getElementById('rectangleWidth');
-    const triangleInputFieldValue1 = triangleInputField1.value;
-    // const triangleInputFieldFloat1 = parseFloat(triangleInputFieldValue1);
-    const triangleInputFieldFloat1 = parseFloat(triangleInputField1.value);
+    const triangleInputFieldFloat1 = parseFloat(triangleInputField1.value);})
 
     // SECOND INPUT FIELD::
     const triangleInputField2 = document.getElementById('rectangleLength');
-    const triangleInputFieldValue2 = triangleInputField2.value;
+    // const triangleInputFieldValue2 = triangleInputField2.value;
     // const triangleInputFieldFloat2 = parseFloat(triangleInputFieldValue2);
     const triangleInputFieldFloat2 = parseFloat(triangleInputField2.value);
 
