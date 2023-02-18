@@ -217,8 +217,8 @@ function createNewElement(id, name, answer, serial) {
 <p>${answer} cm<sup>2</sup></p>
 <button
   type="button"
-  href="./blog.html"
-  class="bg-blue-500 px-5 py-2 rounded-md text-white font-medium"
+  href="blog.html"
+  class="bg-sky-600 px-5 py-2 rounded-md text-white font-medium"
   target="_blank"
 >
   Convert to m<sup>2</sup>
